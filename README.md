@@ -1,2 +1,2 @@
 # Floricultura Bela Vista
- Repositório página de uma floricultura (entendimento de brenchs)
+ Repositório página de uma floricultura (entendimento de branchs)
