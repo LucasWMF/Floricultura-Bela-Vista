@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(255, 235, 209);
+}
+
+.main-header {
+    background-color: rgb(116, 134, 98);
+    padding: 50%;
+    width: 100vw;
+    height: 20vh;
+}
