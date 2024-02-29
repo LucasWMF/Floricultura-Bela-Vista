@@ -10,10 +10,27 @@ body{
 }
 
 .main-header {
+    background-color: #78866B;
     width: 100%;
-    height: 50px;
+    height: 275px;
 }
 
 .navbar {
+    background-color: #7e6c87;
+    margin-bottom: 30px;
+}
 
+.navbar-list {
+
+}
+
+.navbar-items {
+    
+}
+
+.main-div {
+    display: flex;
+    align-content: center;
+    width: 65%;
+    border: solid 3px #D0A933;
 }
