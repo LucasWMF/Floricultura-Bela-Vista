@@ -12,25 +12,42 @@ body{
 .main-header {
     background-color: #78866B;
     width: 100%;
-    height: 275px;
+    height: 300px;
 }
 
 .navbar {
     background-color: #7e6c87;
-    margin-bottom: 30px;
+    height: 80px;
+    margin-bottom: 60px;
 }
 
 .navbar-list {
-
+    display: flex;
+    flex-direction: row;
 }
 
-.navbar-items {
-    
-}
+/* .navbar-items {
+    width: 180px;
+    height: 60px;
+    flex-grow: 1;
+    background-color: #D9D7C5;
+} */
 
 .main-div {
     display: flex;
     align-content: center;
-    width: 65%;
+    justify-content: center;
+}
+
+.main-border-div {
+    width: 1720px;
+    height: 2000px;
     border: solid 3px #D0A933;
+    margin-bottom: 60px;
+}
+
+.main-footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
 }
