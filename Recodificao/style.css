@@ -11,7 +11,6 @@ body {
     background-color: #d4d2bd;
     width: 100%;
     font-size: 16px;
-    /* Defina um tamanho de fonte base para facilitar ajustes */
 }
 
 .main-header {
@@ -35,7 +34,6 @@ body {
     font-size: 70px;
     margin-left: 250px;
 }
-
 
 .navbar {
     flex-grow: 1;
@@ -70,8 +68,6 @@ body {
 .menu-link:hover {
     background-color: #d4d2bd90;
 }
-
-/* Parte de Conteúdo */
 
 .main-div {
     display: flex;
@@ -129,11 +125,10 @@ body {
     font-size: 25px;
 }
 
-
 .div-about-img {
     display: flex;
     width: 25%;
-    height: 450px; /* Removido o espaço entre o número e 'px' */
+    height: 450px;
     margin-right: 3%;
 }
 
@@ -144,15 +139,13 @@ body {
     background-image: url('./Images/floricultura.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Adicionado para garantir que a imagem não seja repetida */
+    background-repeat: no-repeat;
 }
-
-/*  */
 
 .div-purchase-ranking {
     display: flex;
     flex-wrap: wrap;
-    height: auto; /* Removido um valor fixo de altura */
+    height: auto;
     width: 96%;
     justify-content: center;
     border-radius: 20px;
@@ -164,7 +157,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Adicionado para garantir que ocupe a largura total */
+    width: 100%;
 }
 
 .div-purchase-h1 {
@@ -176,8 +169,8 @@ body {
 
 .flower-position {
     display: flex;
-    flex-wrap: wrap; /* Permitir que os elementos se movam para a próxima linha */
-    justify-content: space-around; /* Distribuir os elementos horizontalmente */
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
 }
@@ -191,8 +184,8 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    margin: 1rem; /* Adicionado espaçamento entre os cartões */
-    transition: transform 0.3s ease; /* Adicionada transição para a escala no hover */
+    margin: 1rem;
+    transition: transform 0.3s ease;
 }
 
 .card-flower:hover {
@@ -207,13 +200,11 @@ body {
 
 .card-pflower {
     margin-top: 1rem;
-    font-size: 20px; /* Reduzido o tamanho da fonte para caber melhor */
-    font-weight: 700; /* Corrigido o valor da propriedade font-weight */
+    font-size: 20px;
+    font-weight: 700;
     color: black;
     text-align: center;
 }
-
-/* About Team */
 
 .div-about-team {
     height: auto;
@@ -230,10 +221,10 @@ body {
 }
 
 .title-about-team {
-    text-align: center; /* Centralizado o texto do título */
-    font-size: 80px; /* Aumentado o tamanho do título */
+    text-align: center;
+    font-size: 80px;
     color: white;
-    margin-bottom: 2%; /* Aumentado o espaçamento abaixo do título */
+    margin-bottom: 2%;
     width: 100%;
 }
 
@@ -251,11 +242,8 @@ body {
     margin: 0 auto;
 }
 
-/*      Página footer      */
-
 footer {
     font-weight: 800;
-    /* font-family: 'Inter', sans-serif; */
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
@@ -339,7 +327,6 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    
     color: #D0A933;
 }
 
@@ -363,140 +350,107 @@ footer {
     font-weight: 100;
 }
 
-/* Responsividade */
-
-@media (max-width: 768px) {
-    .main-title {
-        font-size: 80px;
-        margin-right: 40px;
-    }
-
-    .main-subtitle {
-        font-size: 50px;
-        margin-left: 150px;
-    }
-
-    .menu-link {
-        width: 120px;
-        font-size: 16px;
-    }
-
-    .main-div {
-        margin: 15px;
-    }
-
-    .text-store {
-        font-size: 18px;
-        width: 100%;
-    }
-
-    .img-about {
-        width: 50%;
-    }
-
-    .div-purchase-h1 {
-        font-size: 60px;
-    }
-
-    .card-flower {
-        width: 250px;
-        height: 300px;
-    }
-
-    .img-flower {
-        width: 50%;
-    }
-
-    .title-about-team {
-        font-size: 60px;
-    }
-
-    .text-about-team {
-        font-size: 20px;
-        width: 100%;
-        margin-right: 0;
-    }
+.main-searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 200px;
 }
 
-/* Configurações para telas ainda menores (exemplo: smartphones) */
-@media (max-width: 480px) {
-    .main-title {
-        font-size: 60px;
-        margin-right: 20px;
-    }
-
-    .main-subtitle {
-        font-size: 40px;
-        margin-left: 100px;
-    }
-
-    .menu-link {
-        width: 100px;
-        font-size: 14px;
-    }
-
-    .text-store {
-        font-size: 16px;
-    }
-
-    .img-about {
-        width: 70%;
-    }
-
-    .div-purchase-h1 {
-        font-size: 50px;
-    }
-
-    .card-flower {
-        width: 200px;
-        height: 250px;
-    }
-
-    .img-flower {
-        width: 60%;
-    }
-
-    .title-about-team {
-        font-size: 50px;
-    }
-
-    .text-about-team {
-        font-size: 16px;
-    }
+.main-searchbar input {
+    height: 2rem;
+    width: 90%;
+    background-color: #d4d2bd;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: none;
 }
 
-/* Configurações Cards Flower e Boquets */
-
-/* Adicione isso no seu arquivo de estilo */
-
-/* Estilo para os cards de buquês */
-
-/* Efeito de hover para os cards */
-.bouquet-card:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
-}
-
-
-/* Estilo para a barra de pesquisa */
-.input-searchbar {
-    padding: 8px;
-    width: 200px;
-}
-
-/* Estilo para os cards de buquês */
-.bouquet-card {
-    border: 1px solid #ccc;
+.div-searchbar-form {
+    justify-content: center;
+    background-color: #7e6c87;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 10px;
-    margin: 10px;
-    width: 200px;
-    display: inline-block;
-    background-color: #fff; /* Cor de fundo */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    transition: transform 0.3s ease; /* Transição suave */
+    width: 80%;
+    height: 150px;
+    margin-top: 4rem;
 }
 
-/* Efeito de hover para os cards */
-.bouquet-card:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
+.search-input {
+    background-color: #fbeed7;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #78866B;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-div-products {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 96%;
+    height: 1100px;
+    margin-top: 20px;
+}
+
+.product-card {
+    background-color: #D0A933;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 455px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.img-small {
+    margin-top: -80px;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #78866B;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #4caf50;
 }
