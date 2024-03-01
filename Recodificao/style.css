@@ -363,4 +363,140 @@ footer {
     font-weight: 100;
 }
 
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 80px;
+        margin-right: 40px;
+    }
+
+    .main-subtitle {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    .menu-link {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .main-div {
+        margin: 15px;
+    }
+
+    .text-store {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .img-about {
+        width: 50%;
+    }
+
+    .div-purchase-h1 {
+        font-size: 60px;
+    }
+
+    .card-flower {
+        width: 250px;
+        height: 300px;
+    }
+
+    .img-flower {
+        width: 50%;
+    }
+
+    .title-about-team {
+        font-size: 60px;
+    }
+
+    .text-about-team {
+        font-size: 20px;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* Configurações para telas ainda menores (exemplo: smartphones) */
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 60px;
+        margin-right: 20px;
+    }
+
+    .main-subtitle {
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    .menu-link {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .text-store {
+        font-size: 16px;
+    }
+
+    .img-about {
+        width: 70%;
+    }
+
+    .div-purchase-h1 {
+        font-size: 50px;
+    }
+
+    .card-flower {
+        width: 200px;
+        height: 250px;
+    }
+
+    .img-flower {
+        width: 60%;
+    }
+
+    .title-about-team {
+        font-size: 50px;
+    }
+
+    .text-about-team {
+        font-size: 16px;
+    }
+}
+
 /* Configurações Cards Flower e Boquets */
+
+/* Adicione isso no seu arquivo de estilo */
+
+/* Estilo para os cards de buquês */
+
+/* Efeito de hover para os cards */
+.bouquet-card:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
+}
+
+
+/* Estilo para a barra de pesquisa */
+.input-searchbar {
+    padding: 8px;
+    width: 200px;
+}
+
+/* Estilo para os cards de buquês */
+.bouquet-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover para os cards */
+.bouquet-card:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
+}

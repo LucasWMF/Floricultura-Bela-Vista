@@ -20,8 +20,9 @@
 
     <nav class="navbar">
         <ul class="menu menu-items">
+            <li><a class="menu-link" href="index.html">Home</a></li>
             <li><a class="menu-link" href="location.html">Localização</a></li>
-            <li><a class="menu-link" href="index.html   ">Home</a></li>
+            <li><a class="menu-link" href="flowers.html">Flores</a></li>
             <li><a class="menu-link" href="boquets.html">Buquês</a></li>
         </ul>
     </nav>
@@ -30,10 +31,16 @@
         <div class="main-border-div">
             <div class="main-searchbar">
                 <div class="div-searchbar-form">
-                    <input type="search" id="searchbar" class="input-searchbar">
+                    <input type="search" id="searchbar" class="input-searchbar" oninput="search()">
                 </div>
+            </div>
+
+            <!-- Adicione a classe bouquet-card para os elementos que você deseja filtrar -->
+            <div class="bouquet-card">Buquê de Rosas</div>
+            <div class="bouquet-card">Buquê de Lírios</div>
+            <div class="bouquet-card">Buquê de Girassóis</div>
+            <div class="bouquet-card">Buquê Misto</div>
         </div>
-    </div>
     </div>
 
     <footer>
@@ -61,13 +68,13 @@
                     <h4>Páginas</h4>
                 </li>
                 <li>
-                    <a href="index.html" class="footer-link"> Home</a>
-                </li>
-                <li>
                     <a href="location.html" class="footer-link"> Localidades</a>
                 </li>
                 <li>
                     <a href="boquets.html" class="footer-link"> Buquês</a>
+                </li>
+                <li>
+                    <a href="flowers.html" class="footer-link"> Flores</a>
                 </li>
             </ul>
             <div id="footer_subscribe">
