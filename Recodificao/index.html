@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floricultura Bela Vista - Pagina Inicial</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Floricultura Bela Vista</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="site icon" href="./Images/floriculture-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -18,11 +18,27 @@
         <h2 class="main-subtitle">Bela Vista</h2>
     </header>
 
-    <div class="navbar">
-        <ul class="navbar-list">
-            <li class="navbar-items"><a href="#">Flores</a></li>
-            <li class="navbar-items"><a href="#">Bôques</a></li>
-            <li class="navbar-items"><a href="#"></a></li>
+    <nav class="navbar">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+            aria-expanded="false">Menu
+        </button>
+        <ul id="menu" class="menu menu-items">
+            <li><a class="menu-link" href="#">Localização</a></li>
+            <li><a class="menu-link" href="#">Flores</a></li>
+            <li><a class="menu-link" href="#">Buquês</a></li>
+        </ul>
+    </nav>
+    <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+            <li class="nav-item">
+                <a href="#">Localização</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Flores</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Buquês</a>
+            </li>
         </ul>
     </div>
 
@@ -35,18 +51,6 @@
             </div>
             <div class="div-purchase-ranking">
                 <div class="flower-position1">
-                    <div class="card-flower">
-                        <p class="card-pflor"></p>
-                        <img class="img-flor" src="" alt="">
-                    </div>
-                </div>
-                <div class="flower-position2">
-                    <div class="card-flower">
-                        <p class="card-pflor"></p>
-                        <img class="img-flor" src="" alt="">
-                    </div>
-                </div>
-                <div class="flower-position3">
                     <div class="card-flower">
                         <p class="card-pflor"></p>
                         <img class="img-flor" src="" alt="">
