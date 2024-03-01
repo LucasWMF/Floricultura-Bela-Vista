@@ -71,9 +71,7 @@ body {
     background-color: #d4d2bd90;
 }
 
-/* #menu {
-    size: 100px;
-} */
+/* Parte de Conteúdo */
 
 .main-div {
     display: flex;
@@ -84,39 +82,173 @@ body {
 }
 
 .main-border-div {
-    /* padding: calc(100% + 20px); */
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* overflow:; */
     border: solid 3px #D0A933;
     justify-content: center;
     align-items: baseline;
 }
 
 .div-about-store {
-    width: 1300px;
-    height: 290px;
-    background-color: #25d366;
-    flex-wrap: wrap;
-    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 600px;
     display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-direction: row;
 }
 
 .text-store {
+    justify-content: center;
+    align-items: center;
     font-size: large;
+    height: 450px;
+    width: 68%;
+    margin: 2px;
+    background-color: #78866B;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.floricultura-img {
-    background-image: url(./Images/floricultura.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.title-store {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 2%;
 }
 
-/* Adicione um estilo para o botão mobile quando houver um clique para abrir o menu */
-#btn-mobile:checked+#mobile_menu {
+.p-store {
+    font-weight: 900;
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+.div-about-img {
     display: flex;
+    width: 25%;
+    height: 450px; /* Removido o espaço entre o número e 'px' */
+    margin-right: 3%;
+}
+
+.floriculture-img {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/floricultura.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Adicionado para garantir que a imagem não seja repetida */
+}
+
+/*  */
+
+.div-purchase-ranking {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto; /* Removido um valor fixo de altura */
+    width: 96%;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #7e6c87;
+    margin-bottom: 2rem;
+}
+
+.div-purchase-ranking-bk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adicionado para garantir que ocupe a largura total */
+}
+
+.div-purchase-h1 {
+    margin-top: 1rem;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.flower-position {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os elementos se movam para a próxima linha */
+    justify-content: space-around; /* Distribuir os elementos horizontalmente */
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-flower {
+    display: flex;
+    flex-direction: column;
+    background-color: #D0A933;
+    width: 300px;
+    height: 380px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem; /* Adicionado espaçamento entre os cartões */
+    transition: transform 0.3s ease; /* Adicionada transição para a escala no hover */
+}
+
+.card-flower:hover {
+    transform: scale(1.1);
+}
+
+.img-flower {
+    width: 60%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.card-pflower {
+    margin-top: 1rem;
+    font-size: 20px; /* Reduzido o tamanho da fonte para caber melhor */
+    font-weight: 700; /* Corrigido o valor da propriedade font-weight */
+    color: black;
+    text-align: center;
+}
+
+/* About Team */
+
+.div-about-team {
+    height: auto;
+    width: 96%;
+    background-color: #78866B;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+}
+
+.title-about-team {
+    text-align: center; /* Centralizado o texto do título */
+    font-size: 80px; /* Aumentado o tamanho do título */
+    color: white;
+    margin-bottom: 2%; /* Aumentado o espaçamento abaixo do título */
+    width: 100%;
+}
+
+.text-about-team {
+    text-align: justify;
+    color: white;
+    font-size: 30px;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.img-about {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
 }
 
 /*      Página footer      */
@@ -230,3 +362,5 @@ footer {
     padding: 1.5rem;
     font-weight: 100;
 }
+
+/* Configurações Cards Flower e Boquets */
