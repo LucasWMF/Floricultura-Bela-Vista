@@ -41,13 +41,14 @@ body{
 
 .navbar-list {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navbar-items {
+    display: flex;
     list-style: none;
     text-decoration: none;
     border-radius: 200px;
@@ -55,6 +56,11 @@ body{
     height: 60px;
     /* flex-grow: 0; */
     background-color: #D9D7C5;
+}
+
+.navbar-items a{
+    text-align: center;
+
 }
 
 .main-div {
